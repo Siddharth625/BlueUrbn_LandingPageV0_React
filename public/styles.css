@@ -1,0 +1,156 @@
+.rightmargin{
+    position : absolute;
+    right : 0px;
+}
+
+.leftmargin{
+    position : absolute;
+    left : 0px;
+}
+
+.gsbtn {
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14.5px;
+    background: #2885b0;
+    padding: 10px 20px 10px 20px;
+    border: solid #f7fafc 3px;
+    text-decoration: none;
+  }
+  
+  .gsbtn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #51616c, #7f929f);
+    background-image: -moz-linear-gradient(top, #51616c, #7f929f);
+    background-image: -ms-linear-gradient(top, #51616c, #7f929f);
+    background-image: -o-linear-gradient(top, #51616c, #7f929f);
+    background-image: linear-gradient(to bottom, #51616c, #7f929f);
+    text-decoration: none;
+  }
+
+  .BU_Logo_img{
+    height: 8%;
+    width: 8%;
+    margin-left: 100px;
+    border-radius: 50%
+  }
+
+  .BU_logo_text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  .blue_grad_sec_pos{
+    position: absolute;
+    width: 100%;
+    height: 605px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background: linear-gradient(181.27deg, #2883B0 9.64%, 
+                rgba(6, 68, 99, 0.6) 50.99%, rgba(2, 48, 71, 0.1) 92.35%), 
+                radial-gradient(80.37% 169.95% at 6.58% 10.47%, 
+                #074868 0%, #023047 60.02%, #0F2835 100%);
+  }
+
+  .Deploy_pos{
+    position: absolute;
+    width: 700px;
+    height: 164px;
+    left: 170px;
+    top: 200px;
+  }
+
+  .Deploy_white_text{
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 50;
+    font-size: 45px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color :#ffffff
+  }
+
+  .blue_energy{
+    position: relative;
+    left: 5px;
+    color: rgba(100, 207, 246, 1);
+  }
+  .blue_projects{
+    position: relative;
+    right: 5px;
+    color: rgba(100, 207, 246, 1);
+  }
+
+  .Identify_pos{
+    position: absolute;
+    width: 800px;
+    height: 82px;
+    left: 170px;
+    top: 340px;
+  }
+
+  .Identify_text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color :#ffffff
+  }
+
+  .get_early_access_pos{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 170px;
+    top: 450px;
+  }
+
+  .get_early_access_btn {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    text-shadow: 0px 0px 0px #9c9797;
+    font-family: Arial;
+    color: #074868;
+    font-size: 14.5px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .get_early_access_btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #51616c, #7f929f);
+    background-image: -moz-linear-gradient(top, #51616c, #7f929f);
+    background-image: -ms-linear-gradient(top, #51616c, #7f929f);
+    background-image: -o-linear-gradient(top, #51616c, #7f929f);
+    background-image: linear-gradient(to bottom, #51616c, #7f929f);
+    text-decoration: none;
+  }
+
+  .BU_Building{
+    position: absolute;
+    right: 0px;
+    top: 240px;
+    height: 65%;
+    width:50%;
+  }
+
+  .times_banner{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 800px;
+  }
