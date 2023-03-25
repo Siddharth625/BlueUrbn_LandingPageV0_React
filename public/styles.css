@@ -152,5 +152,14 @@
     position: absolute;
     right: 0px;
     left: 0px;
-    top: 800px;
+    top: 605px;
+  }
+
+  .gray_div{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 605px;
+    bottom: 1815;
+    background: #F0F3F5;
   }
