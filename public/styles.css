@@ -160,8 +160,8 @@
     right: 0px;
     left: 0px;
     top: 605px;
-    bottom: 1815;
-    background: #F0F3F5;
+    bottom: 5000px;
+    background-color: #f0f7fa;
   }
 
   .white_box{
@@ -171,26 +171,24 @@
     align-items: flex-start;
     padding: 39.9099px;
     gap: 9.98px;
-
     position: absolute;
-    width: 28%;
-    height: 480px;
+    width: 29%;
+    height: 440px;
     left: 56px;
     top: 400px;
-
     background: #FFFFFF;
-    border: 0.997748px solid #D7E3EF;
+    border:1.2px solid #D7E3EF;
     border-radius: 39.9099px;
   }
 
   .white_text_styl {
     position: absolute;
-    width:80%;
+    width:83%;
     top: 230px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 173%;
     display: flex;
     align-items: center;
@@ -215,4 +213,413 @@
     flex: none;
     order: 2;
     flex-grow: 0;
+  }
+
+  .three_easy_steps{
+    position: absolute;
+    width: 548px;
+    height: 52px;
+    left: 51px;
+    top: 2038px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    color: #023147;
+  }
+
+  .circular_border{
+    border-radius:80px;
+    padding: 20px; 
+    width:90px;
+    height: 90px;
+    margin: 1%;
+    border: 1px solid #D7E3EF;
+  }
+
+  .three_steps_pos{
+    position: absolute;
+    top: 1700px;
+    left: 50px;
+  }
+
+  .three_steps_style{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    color: #023147;
+  }
+
+  .Measure_style{
+    position: relative;
+    top: 1830px;
+    left: 120px;
+    width: 149px;
+    height: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0E131B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Measure_text{
+    position: relative;
+    top: 1850px;
+    left: 120px;
+    width: 380px;
+    height: 124px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 173%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .Measure_dashboard{
+    position: absolute;
+    width: 550px;
+    height: 635.8px;
+    left: 680px;
+    top: 1780px;
+    background: #FFFFFF;
+  }
+
+  .Select_style{
+    position: relative;
+    top: 1910px;
+    left: 120px;
+    width: 149px;
+    height: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: rgba(155, 171, 197, 1);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Implement_style{
+    position: relative;
+    top: 2010px;
+    left: 120px;
+    width: 149px;
+    height: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: rgba(155, 171, 197, 1);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Get_address{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 0px;
+    top: 2500px;
+    right: 0px;
+    background: rgba(2, 48, 71, 1);
+  }
+
+ 
+
+  .Get_started_text{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 87px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .Get_started_info{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    width: 300px;
+    height: 104px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 173%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .Address_box{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 300px;
+    height: 50px;
+    left: 0px;
+    top: 350px;
+    background: #022638;
+    border-radius: 20px;
+  }
+
+  .Get_started_img{
+    position: relative;
+    margin-left: 670px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .GEA_button_pos{
+    position: relative;
+    top: 420px;
+    margin-left: 100px;
+  }
+
+  .gray_div_v2{
+    position: absolute;
+    right: 0px;
+    left: 100px;
+    top: 3250px;
+    background-color: #f0f7fa;
+  }
+
+  .dont_take_our_word{
+    position: absolute;
+    width: 1037px;
+    height: 95px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    color: #023047;
+  }
+
+  .see_for_yourself{
+    position: absolute;
+    width: 1037px;
+    height: 95px;
+    left: 0px;
+    top: 85px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120px;
+    /* or 241% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+
+    color: #6E89AC;
+
+  }
+
+  .blog_1_pos{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 0px;
+    top: 200px;
+    border-radius: 15px;
+  }
+
+  .blog_2_pos{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 610px;
+    top: 200px;
+    border-radius: 15px;
+  }
+
+  .blog_3_pos{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 870px;
+    top: 200px;
+    border-radius: 15px;
+  }
+
+  .blog_4_pos{
+    position: absolute;
+    width: 510px;
+    height: 440px;
+    left: 610px;
+    top: 460px;
+    border-radius: 15px;
+  }
+
+  .blog_5_pos{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 0px;
+    top: 700px;
+    border-radius: 15px;
+  }
+
+  .lets_connect_text{
+    position: absolute;
+    width: 513px;
+    height: 87px;
+    left: 100px;
+    top: 4300px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 96px;
+    color: #023047;
+
+  }
+
+  .lc_blue_section{
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    left: 0px;
+    right: 0px;
+    top: 4450px;
+
+    background: #023047;
+  }
+
+  .lc_location{
+    position: absolute;
+    width: 176px;
+    height: 35px;
+    left: 150px;
+    top: 30px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+  }
+
+  .lc_loc_text{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 150px;
+    top:70px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    color: #FFFFFF;
+  }
+
+  .form_box{
+    box-sizing: border-box;
+    position: absolute;
+    left: 700px;
+    right: 100px;
+    top: -100px;
+    bottom: 0.06px;
+    background: #FFFFFF;
+    border: 1px solid #468FAB;
+    box-shadow: 0px 4px 30px rgba(51, 129, 168, 0.3);
+    border-radius: 29.7771px 29.7771px 0px 0px;
+  }
+
+  .form_next{
+    position: absolute;
+    height: 100px;
+    left: 700px;
+    right: 100px;
+    top: 350px;
+    bottom: 0.06px;
+    background: linear-gradient(180deg, #519EBB 36.46%, #2F6F89 100%);
+    border-radius: 29.7771px;
+  }
+
+  .form_name{
+    position: absolute;
+    width: 245.65px;
+    height: 37.16px;
+    left: 50px;
+    top: 150px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.16px;
+    line-height: 32px;
+
+    color: #333333;
+  }
+
+  .form_top_line{
+    position: relative;
+    top: 82.5px;
+    color: rgba(70, 143, 171, 1)
+  }
+
+  .form_input_box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    left: 50px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border: 1.03213px solid #68B7DE;
+    border-radius: 10.3213px;
   }
