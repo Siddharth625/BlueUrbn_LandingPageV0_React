@@ -508,6 +508,34 @@
     border-radius: 15px;
   }
 
+  .blog_text_h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.2676px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+
+  }
+
+  .blog_text_h2{
+    width: 522px;
+    height: 18px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.7007px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
   .lets_connect_text{
     position: absolute;
     width: 513px;
@@ -622,4 +650,24 @@
     background: #FFFFFF;
     border: 1.03213px solid #68B7DE;
     border-radius: 10.3213px;
+  }
+
+  .footer_bkg{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 650px;
+    background: #023047;
+  }
+
+  .footer_blue_ribbon{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0px;
+    right: 0px;
+    top: 635px;
+    background: #468FAB;
   }
