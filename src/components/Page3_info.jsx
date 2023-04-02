@@ -1,14 +1,20 @@
 import React from "react";
 
-function Three_easy_steps(){
+function LP_PG_3(){
     return <div>
-        <img class="Measure_dashboard" src="./logo/Measure_img.png" alt="Measure Img"></img>
-                <h1 className="three_steps_pos three_steps_style">In <span style={{color:'#219FBD', paddingRight:'20px', paddingLeft:'20px'}}>3 Easy</span> Steps</h1>
-                <span className="Measure_style">Measure</span>
-                <span className="Measure_text">Understand how your building benchmarks against others, identify tailored energy efficiency and clean energy projects, and implement at no capital cost</span>
-                <span className="Select_style">Select</span>
-                <span className="Implement_style">Implement</span>
+        <div className="Get_address">
+                    <span className="Get_started_text">Get started with</span>
+                    <span className="Get_started_text" style={{top:'170px'}}>just an address</span>
+                    <span className="Get_started_info">Understand how your building benchmarks against others, identify tailored energy efficiency and clean energy projects, and implement at no capital cost</span>
+                    <form action="">
+                        <input type="text" id="Address_LP" className="Address_box"></input>
+                    </form>
+                    <a className="nav-link " href=""><span className="get_early_access_btn GEA_button_pos">Get Early Access</span></a>
+                    <span>
+                        <img className="Get_started_img" src="./logo/Get_started_img.png" alt="Get Address Image"></img>
+                    </span>
+                </div>
     </div>
 };
 
-export default Three_easy_steps;
+export default LP_PG_3;
